@@ -1,7 +1,9 @@
 'use strict'
 
 var naics_2007 = require('naics-2007'),
-    naics_2012 = require('naics-2012');
+    naics_2012 = require('naics-2012'),
+    mapping_7_12 = require('codes07-12')
+    ;
 
 exports.get = function ( req, res ) {
 
